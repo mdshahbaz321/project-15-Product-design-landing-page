@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: #111111;
+}
+/* start nav coding */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 8rem;
+}
+.list-item{
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 2rem;
+}
+.list-item:hover{
+    border-bottom: 1px solid #CA0303;
+    cursor: pointer;
+}
+i{
+    font-size: 1rem;
+    margin-left: 0.3rem;
+}
+/* start author coding */
+.hero-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 5rem;
+    position: relative;
+    /* border: #CA0303 solid 1px; */
+    height: 25rem;
+}
+.hero{
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    top:-5rem;
+    right: -5rem;
+}
+.about-hero{
+    /* border: #CA0303 solid 1px; */
+    padding:4rem 0 ;
+}
+.im-arthur{
+    color: #FD0000;
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+}
+.Visual-heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.author-txt{
+    color: #ffffff;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+}
+.about-btn{
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #FD0000;
+    color: #ffffff;
+    border: none;
+}
+.about-btn:hover{
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
+/* end hero section */
+.advertisment-box{
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 1rem;
+}
+.experience{
+    width: 100%;
+    height: 40rem;
+    background: linear-gradient(to left, #111111 50%, #292626 50%);
+    position: relative;
+    z-index: -1;
+}
+.adBox-inner{
+    width: 16rem;
+    height: 16rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    padding: 1.5rem 2rem;
+    color: #ffffff;
+}
+.ui-designn{
+    background-color: #373434;
+}
+.product-design{
+    background-color: #FD0000;
+}
+.branding{
+    background-color: #373434;
+}
+.adInner-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+}
+.first-cardImg{
+    width: 4rem;
+}
+.knowMore{
+    font-size: 1rem;
+    color: #FD0000;
+    margin: top 0.5re;
+    cursor: pointer;
+}
+/* experince box end  */
+.year-experince{
+    width: 100%;
+    height: 20rem;
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+.number-box{
+    background-color: #373434;
+    width: 14rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.twelve{
+    text-align: center;
+    padding: 2.8rem 1rem;
+}
+.twelve-num{
+    color: #FD0000;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.box-numberMain{
+    display: flex;
+    justify-content: space-between;
+}
+.innner-number{
+    color: #FD0000;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+.number-box{
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+.num-txt{
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 00.3rem;
+    font-family: sans-serif;
+}
+/* end num */
+/* start feature box */
+.feature-box{
+    display: flex;
+    justify-content: space-between;
+    color:#ffffff ;
+    margin-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 20rem;
+    margin-bottom: 2rem;
+}
+.view-all{
+    width: 10rem;
+    height: 4rem;
+    background-color: #FD0000;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.feature-txt{
+    font-size: 2rem;
+    font-weight: 800;
+}
+/* end features box */
+.product-box{
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20rem;
+}
+.img-first-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-img{
+    width: 22rem;
+    height: 15rem;
+}
+.img-box{
+    text-align: center;
+    background-color: #373434;
+    width:25rem;
+    height: 18rem;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+/* lets work start */
+.lets-work{
+    width: 58rem;
+    height: 13rem;
+    background-color: #373434;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    padding: 2rem 2rem;
+    color: #ffffff;
+}
+.contact{
+    width: 10rem;
+    height: 3rem;
+    background-color: #FD0000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.lets-work{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.last-footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #373434;
+    padding: 3rem 5rem;
+}
+.footer-icons-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-icon{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+.footer-logo{
+    width: 10rem;
+    position: relative;
+    top: 2rem;
+}
+/* end */
+/* start responsive */
+@media screen and (max-width:1024px) {
+    html{
+        font-size: 85%;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    html{
+        font-size: 75%;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    html{
+        font-size: 65%;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    html{
+        font-size: 55%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    html{
+        font-size: 45%;
+    }
+    
+}
+@media screen and (max-width:500px){
+    html{
+        font-size: 35%;
+    }
+    
+}
+@media screen and (max-width:400px){
+    html{
+        font-size: 30%;
+    }
+    
+}
+@media screen and (max-width:350px){
+    html{
+        font-size: 28%;
+    }
+    
+}
